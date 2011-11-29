@@ -17,7 +17,10 @@ class Time {
     $this->rewind();
     if (!$now) $now = time();
 
-    $then = strtotime($then);
+    if (!is_numeric($then)) {
+      $then = strtotime($then);
+    }
+
     $diff = $now - $then;
 
     $years = floor($diff / YEAR);

@@ -9,7 +9,7 @@ Pick the class/module for your specific language and plug it into your code. Fro
 
       // PHP
       $time = new Time();
-      echo $time->agoInWords($created); // $created must be parseable by strtotime()
+      echo $time->agoInWords($created); // $created must be parseable by strtotime() or be a timestamp
 
       // NODEJS
       var Time = require('../path/to/file');
