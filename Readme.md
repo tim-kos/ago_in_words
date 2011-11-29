@@ -12,7 +12,7 @@ Pick the class/module for your specific language and plug it into your code. Fro
       echo $time->agoInWords($created); // $created must be parseable by strtotime()
 
       // NODEJS
-      var Time = require('../path/to/file);
+      var Time = require('../path/to/file');
       console.log(Time.agoInWords(date)); // date must be parseable by the Date class
 
 ## Outputs
