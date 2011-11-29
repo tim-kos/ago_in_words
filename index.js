@@ -4,6 +4,7 @@ module.exports = {
   hasMonth : false,
   hasWeek  : false,
   hasDay   : false,
+
   YEAR     : 31536000,
   MONTH    : 2592000,
   WEEK     : 604800,

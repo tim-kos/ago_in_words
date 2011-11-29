@@ -20,8 +20,8 @@ Pick the class/module for your specific language and plug it into your code. Fro
 The output depends on how far in the past your date was. Here are all cases:
 
   * 2 years ago
-  * 7 months, 12 days ago
-  * 12 days, 4 hours ago
+  * 7 months, 3 weeks ago
+  * 1 week, 4 days ago
   * 1 day, 1 hour ago
   * 16 hours, 1 minute ago
   * 35 minutes ago
@@ -31,7 +31,6 @@ The output depends on how far in the past your date was. Here are all cases:
 
 ## Todo
 
-  * Add support for weeks
   * Support Ruby
   * Support Python
   * Tell me what you need
