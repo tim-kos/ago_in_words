@@ -1,3 +1,12 @@
+/**
+ * Time class with agoInWords functionality
+ *
+ * @filesource
+ * @author Tim Koschuetzki, Debuggable Ltd., http://debuggable.com
+ * @license	http://www.opensource.org/licenses/mit-license.php The MIT License
+ *
+ * Taken from https://github.com/tim-kos/ago_in_words
+ */
 module.exports = {
   hasOne   : false,
   hasYear  : false,

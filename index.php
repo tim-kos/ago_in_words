@@ -1,4 +1,13 @@
 <?php
+/**
+ * Time class with agoInWords functionality
+ *
+ * @filesource
+ * @author Tim Koschuetzki, Debuggable Ltd., http://debuggable.com
+ * @license	http://www.opensource.org/licenses/mit-license.php The MIT License
+ *
+ * Taken from https://github.com/tim-kos/ago_in_words
+ */
 if (!defined('MINUTE')) define('MINUTE',  60);
 if (!defined('HOUR'))   define('HOUR',    3600);
 if (!defined('DAY'))    define('DAY',     86400);
